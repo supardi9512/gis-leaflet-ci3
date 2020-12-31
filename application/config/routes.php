@@ -57,5 +57,4 @@ $route['marker'] = 'home/marker';
 $route['polyline'] = 'home/polyline';
 $route['rute'] = 'home/rute';
 $route['get-coordinat'] = 'home/get_coordinat';
-
-
+$route['tps'] = 'home/tps';

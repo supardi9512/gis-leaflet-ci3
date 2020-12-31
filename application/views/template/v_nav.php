@@ -20,6 +20,17 @@
             <li>
                 <a  href="<?= site_url('get-coordinat'); ?>"><i class="fa fa-map-marker"></i> Get Coordinat</a>
             </li>
+            <li>
+                <a href="#"><i class="fa fa-map-marker"></i> TPS Kota Bandung<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="<?= site_url('tps'); ?>">Pemetaan Lokasi TPS</a>
+                    </li>
+                    <li>
+                        <a href="#">Second Level Link</a>
+                    </li>
+                </ul>
+            </li>  
         </ul>
     </div>
 </nav>  
