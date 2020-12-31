@@ -55,4 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['marker'] = 'home/marker';
 $route['polyline'] = 'home/polyline';
+$route['rute'] = 'home/rute';
 

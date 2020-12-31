@@ -31,5 +31,15 @@ class Home extends CI_Controller {
         ];
 
 		$this->load->view('template/v_wrapper', $data);
+    }
+    
+    public function rute()
+	{
+        $data = [
+            'title' => 'Rute',
+            'isi'   => 'v_rute'
+        ];
+
+		$this->load->view('template/v_wrapper', $data);
 	}
 }

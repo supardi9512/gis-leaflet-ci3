@@ -14,6 +14,9 @@
             <li>
                 <a  href="<?= site_url('polyline'); ?>"><i class="fa fa-line-chart"></i> Polyline</a>
             </li>
+            <li>
+                <a  href="<?= site_url('rute'); ?>"><i class="fa fa-line-chart"></i> Rute</a>
+            </li>
         </ul>
     </div>
 </nav>  
