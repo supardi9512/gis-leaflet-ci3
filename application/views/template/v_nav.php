@@ -6,7 +6,7 @@
                 <img src="<?= base_url('template/assets/img/find_user.png" class="user-image img-responsive'); ?>"/>
             </li>    
             <li>
-                <a  href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                <a  href="<?= site_url('home'); ?>"><i class="fa fa-globe"></i> View Map</a>
             </li>
                 <li>
                 <a  href="ui.html"><i class="fa fa-desktop"></i> UI Elements</a>

@@ -13,7 +13,5 @@
     <script src="<?= base_url('template/assets/js/jquery.metisMenu.js'); ?>"></script>
       <!-- CUSTOM SCRIPTS -->
     <script src="<?= base_url('template/assets/js/custom.js'); ?>"></script>
-    
-   
 </body>
 </html>

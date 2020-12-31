@@ -6,7 +6,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
         $data = [
-            'title' => 'GIS',
+            'title' => 'View Map',
             'isi'   => 'v_home'
         ];
 
