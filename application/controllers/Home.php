@@ -11,5 +11,15 @@ class Home extends CI_Controller {
         ];
 
 		$this->load->view('template/v_wrapper', $data);
+    }
+    
+    public function marker()
+	{
+        $data = [
+            'title' => 'Marker (Penanda Lokasi Pada Peta)',
+            'isi'   => 'v_marker'
+        ];
+
+		$this->load->view('template/v_wrapper', $data);
 	}
 }

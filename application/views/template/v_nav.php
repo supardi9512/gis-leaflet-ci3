@@ -9,7 +9,7 @@
                 <a  href="<?= site_url('home'); ?>"><i class="fa fa-globe"></i> View Map</a>
             </li>
                 <li>
-                <a  href="ui.html"><i class="fa fa-desktop"></i> UI Elements</a>
+                <a  href="<?= site_url('marker'); ?>"><i class="fa fa-map-marker"></i> Marker</a>
             </li>
         </ul>
     </div>
