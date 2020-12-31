@@ -11,11 +11,20 @@
 		zoomOffset: -1
     }).addTo(map);
 
-    L.Routing.control({
+    var routeControl = L.Routing.control({
         waypoints: [
             L.latLng(-6.280691, 106.725892),
             L.latLng(-6.278213, 106.724757)
         ],
         routeWhileDragging: false,
     }).addTo(map);
+
+// MENCARI NILAI KM DAN WAKTU TEMPUH
+
+//  routeControl.on('routesfound', function(e) {
+//    var routes = e.routes;
+//    var summary = routes[0].summary;
+//    // alert distance and time in km and minutes
+//    alert('Total distance is ' + summary.totalDistance / 1000 + ' km and total time is ' + Math.round(summary.totalTime % 3600 / 60) + ' minutes');
+// });
 </script>

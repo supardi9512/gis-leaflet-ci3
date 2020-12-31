@@ -17,6 +17,9 @@
             <li>
                 <a  href="<?= site_url('rute'); ?>"><i class="fa fa-line-chart"></i> Rute</a>
             </li>
+            <li>
+                <a  href="<?= site_url('get-coordinat'); ?>"><i class="fa fa-map-marker"></i> Get Coordinat</a>
+            </li>
         </ul>
     </div>
 </nav>  

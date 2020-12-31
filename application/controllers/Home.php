@@ -41,5 +41,15 @@ class Home extends CI_Controller {
         ];
 
 		$this->load->view('template/v_wrapper', $data);
+    }
+    
+    public function get_coordinat()
+	{
+        $data = [
+            'title' => 'Get Coordinat',
+            'isi'   => 'v_get_coordinat'
+        ];
+
+		$this->load->view('template/v_wrapper', $data);
 	}
 }
