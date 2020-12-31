@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['marker'] = 'home/marker';
+$route['polyline'] = 'home/polyline';
+

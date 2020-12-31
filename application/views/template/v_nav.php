@@ -8,8 +8,11 @@
             <li>
                 <a  href="<?= site_url('home'); ?>"><i class="fa fa-globe"></i> View Map</a>
             </li>
-                <li>
+            <li>
                 <a  href="<?= site_url('marker'); ?>"><i class="fa fa-map-marker"></i> Marker</a>
+            </li>
+            <li>
+                <a  href="<?= site_url('polyline'); ?>"><i class="fa fa-line-chart"></i> Polyline</a>
             </li>
         </ul>
     </div>

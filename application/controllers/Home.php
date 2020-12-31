@@ -21,5 +21,15 @@ class Home extends CI_Controller {
         ];
 
 		$this->load->view('template/v_wrapper', $data);
+    }
+    
+    public function polyline()
+	{
+        $data = [
+            'title' => 'Polyline',
+            'isi'   => 'v_polyline'
+        ];
+
+		$this->load->view('template/v_wrapper', $data);
 	}
 }
