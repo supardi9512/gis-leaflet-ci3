@@ -68,5 +68,16 @@ class Home extends CI_Controller {
         ];
 
 		$this->load->view('template/v_wrapper', $data);
+    }
+    
+    public function tps4()
+	{
+        $data = [
+            'title' => 'Pemetaan Lokasi TPS Kota Bandung Control Search',
+            'tps'   => $this->m_tps->get_all_data(),
+            'isi'   => 'tps/v_pemetaan_tps4'
+        ];
+
+		$this->load->view('template/v_wrapper', $data);
 	}
 }

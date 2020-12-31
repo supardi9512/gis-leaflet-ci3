@@ -27,4 +27,8 @@
     <script src="<?= base_url('template/assets/js/jquery.metisMenu.js'); ?>"></script>
     <!-- CUSTOM SCRIPTS -->
     <script src="<?= base_url('template/assets/js/custom.js'); ?>"></script>
+
+    <!-- LEAFLET CONTROL SEARCH -->
+    <link rel="stylesheet" href="<?= base_url('leaflet-search/src/leaflet-search.css'); ?>" />
+    <script src="<?= base_url('leaflet-search/src/leaflet-search.js'); ?>"></script>
 </head>

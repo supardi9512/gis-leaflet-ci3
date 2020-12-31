@@ -27,7 +27,7 @@
                         <a href="<?= site_url('tps'); ?>">Pemetaan Lokasi TPS</a>
                     </li>
                     <li>
-                        <a href="#">Second Level Link</a>
+                        <a href="<?= site_url('tps4'); ?>">Pemetaan Lokasi TPS Control Search</a>
                     </li>
                 </ul>
             </li>  
