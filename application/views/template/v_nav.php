@@ -18,7 +18,7 @@
                 <a  href="<?= site_url('rute'); ?>"><i class="fa fa-line-chart"></i> Rute</a>
             </li>
             <li>
-                <a  href="<?= site_url('get-coordinat'); ?>"><i class="fa fa-map-marker"></i> Get Coordinat</a>
+                <a href="<?= site_url('get-coordinat'); ?>"><i class="fa fa-map-marker"></i> Get Coordinat</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-map-marker"></i> TPS Kota Bandung<span class="fa arrow"></span></a>
@@ -30,7 +30,10 @@
                         <a href="<?= site_url('tps4'); ?>">Pemetaan Lokasi TPS Control Search</a>
                     </li>
                 </ul>
-            </li>  
+            </li>
+            <li>
+                <a href="<?= site_url('basemap'); ?>"><i class="fa fa-map-marker"></i> Base Map</a>
+            </li>
         </ul>
     </div>
 </nav>  

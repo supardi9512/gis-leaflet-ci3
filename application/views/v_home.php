@@ -10,4 +10,23 @@
         tileSize: 512,
 		zoomOffset: -1
     }).addTo(map);
+
+    // get my location (current location)
+
+    // map.locate({setView: true, watch: true}) /* This will return map so you can do chaining */
+    //     .on('locationfound', function(e){
+    //         var marker = L.marker([e.latitude, e.longitude]).bindPopup('Your are here :)');
+    //         var circle = L.circle([e.latitude, e.longitude], e.accuracy/2, {
+    //             weight: 1,
+    //             color: 'red',
+    //             fillColor: '#cacaca',
+    //             fillOpacity: 0.2
+    //         });
+    //         map.addLayer(marker);
+    //         map.addLayer(circle);
+    //     })
+    //    .on('locationerror', function(e){
+    //         console.log(e);
+    //         alert("Location access denied.");
+    //     });
 </script>

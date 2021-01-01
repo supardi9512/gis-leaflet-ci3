@@ -79,5 +79,16 @@ class Home extends CI_Controller {
         ];
 
 		$this->load->view('template/v_wrapper', $data);
+    }
+    
+    public function basemap()
+	{
+        $data = [
+            'title' => 'Base Map',
+            'tps'   => $this->m_tps->get_all_data(),
+            'isi'   => 'v_basemap'
+        ];
+
+		$this->load->view('template/v_wrapper', $data);
 	}
 }
